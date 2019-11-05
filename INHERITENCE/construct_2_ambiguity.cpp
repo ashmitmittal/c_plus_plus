@@ -27,6 +27,6 @@ class c: public a, public b {
 int main()
 {
 	c o1;
-//	o1.show();
-	o1.a::show();
+	o1.show();
+//	o1.a::show();
 }

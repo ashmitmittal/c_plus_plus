@@ -26,7 +26,8 @@ int main()
 {
 	complex c1; //default constructor
 	c1.read();
-	complex c2(5,4); // parameter constructor
+	complex c2;
+	c2.read();
 	complex c3(c1,c2); // copy constructor
 	c3.disp();
 }
