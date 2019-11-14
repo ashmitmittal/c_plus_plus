@@ -15,11 +15,20 @@ class common
 	};
 class addition: public common
 	{
-		public: void add()
+		public:
+			void add()
 			{
 				c=a+b;
 			}
 	};
+class subtract: public common
+{
+	public: 
+		void sub()
+		{
+			c=a-b;
+		}
+}
 int main()
 {
 	addition c1;

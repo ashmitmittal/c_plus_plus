@@ -13,7 +13,7 @@ class common1: public common
 	public: void show()
 		{
 			cout<<"Hello welcome in common1"<<endl;
-			common::show();
+//			common::show();
 		}
 };
 int main()

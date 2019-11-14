@@ -12,7 +12,8 @@ class common
 class common1
 	{
 		protected: int c;
-		public: void disp()
+		public:
+		 void disp()
 			{
 				cout<<c;
 			}
